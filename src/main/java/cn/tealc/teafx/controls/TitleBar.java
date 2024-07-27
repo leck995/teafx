@@ -102,7 +102,7 @@ public class TitleBar extends StackPane {
         fullScreenBtn.getStyleClass().add("full-btn");
         titleBarPane.getChildren().add(rightHBox);
         setPosition(rightHBox,0.0,0.0,0.0,null);
-        getStylesheets().add(this.getClass().getResource("/cn/tealc/teafx/css/title-bar.css").toExternalForm());
+        getStylesheets().add(this.getClass().getResource("/cn/tealc/teafx/css/controls/title-bar.css").toExternalForm());
 
         contentPane=new AnchorPane();
         contentPane.getStyleClass().add("main-content");
@@ -195,7 +195,7 @@ public class TitleBar extends StackPane {
             fullScreenBtn.getStyleClass().add("full-btn");
             titleBarPane.getChildren().add(rightHBox);
             setPosition(rightHBox,0.0,0.0,0.0,null);
-            getStylesheets().add(this.getClass().getResource("/cn/tealc/teafx/css/title-bar.css").toExternalForm());
+            //getStylesheets().add(this.getClass().getResource("/cn/tealc/teafx/css/title-bar.css").toExternalForm());
         }
 
         contentPane=new AnchorPane();
@@ -281,4 +281,8 @@ public class TitleBar extends StackPane {
     }
 
 
+    @Override
+    public String getUserAgentStylesheet() {
+        return this.getClass().getResource("/cn/tealc/teafx/css/controls/title-bar.css").toExternalForm();
+    }
 }

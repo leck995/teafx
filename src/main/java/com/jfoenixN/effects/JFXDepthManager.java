@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package com.jfoenix.effects;
+package com.jfoenixN.effects;
 
 import javafx.scene.Node;
 import javafx.scene.effect.BlurType;

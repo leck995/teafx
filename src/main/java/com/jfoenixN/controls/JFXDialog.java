@@ -17,12 +17,12 @@
  * under the License.
  */
 
-package com.jfoenix.controls;
+package com.jfoenixN.controls;
 
-import com.jfoenix.controls.events.JFXDialogEvent;
-import com.jfoenix.converters.DialogTransitionConverter;
-import com.jfoenix.effects.JFXDepthManager;
-import com.jfoenix.transitions.CachedTransition;
+import com.jfoenixN.controls.events.JFXDialogEvent;
+import com.jfoenixN.converters.DialogTransitionConverter;
+import com.jfoenixN.effects.JFXDepthManager;
+import com.jfoenixN.transitions.CachedTransition;
 import javafx.animation.*;
 import javafx.beans.DefaultProperty;
 import javafx.beans.property.BooleanProperty;

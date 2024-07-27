@@ -17,9 +17,9 @@
  * under the License.
  */
 
-package com.jfoenix.controls.events;
+package com.jfoenixN.controls.events;
 
-import com.jfoenix.controls.JFXDialog;
+import com.jfoenixN.controls.JFXDialog;
 import javafx.event.Event;
 import javafx.event.EventType;
 

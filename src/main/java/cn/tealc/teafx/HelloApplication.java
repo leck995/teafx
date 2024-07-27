@@ -1,21 +1,13 @@
 package cn.tealc.teafx;
 
 import cn.tealc.teafx.controls.TitleBar;
-import cn.tealc.teafx.dialog.TeaDialog;
 import cn.tealc.teafx.enums.TitleBarStyle;
 import cn.tealc.teafx.stage.RoundStage;
-import com.jfoenix.controls.JFXDialog;
-import javafx.animation.*;
+import com.jfoenixN.controls.JFXDialog;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.CacheHint;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import javafx.util.Duration;
 
 import java.io.IOException;
 

@@ -226,6 +226,15 @@ public class TeaStage extends Stage {
     }
 
 
+    public BoundingBox getOriginBox() {
+        if (isMaxed() || isFullScreen()){
+            return originBox;
+        }else {
+            return new BoundingBox(getX(), getY(), getWidth(), getHeight());
+        }
+
+    }
+
 
     public boolean isMaxed() {
         return maxed.get();

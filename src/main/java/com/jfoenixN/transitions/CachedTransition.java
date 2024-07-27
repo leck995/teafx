@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package com.jfoenix.transitions;
+package com.jfoenixN.transitions;
 
 import javafx.animation.Timeline;
 import javafx.animation.Transition;

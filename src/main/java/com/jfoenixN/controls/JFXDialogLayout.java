@@ -17,9 +17,9 @@
  * under the License.
  */
 
-package com.jfoenix.controls;
+package com.jfoenixN.controls;
 
-import com.jfoenix.assets.JFoenixResources;
+import com.jfoenixN.assets.JFoenixResources;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.layout.FlowPane;

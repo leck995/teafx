@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package com.jfoenix.transitions;
+package com.jfoenixN.transitions;
 
 import javafx.scene.CacheHint;
 import javafx.scene.Node;

@@ -17,9 +17,9 @@
  * under the License.
  */
 
-package com.jfoenix.converters;
+package com.jfoenixN.converters;
 
-import com.jfoenix.controls.JFXDialog.DialogTransition;
+import com.jfoenixN.controls.JFXDialog.DialogTransition;
 import javafx.css.ParsedValue;
 import javafx.css.StyleConverter;
 import javafx.scene.text.Font;
