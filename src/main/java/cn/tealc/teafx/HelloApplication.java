@@ -2,32 +2,39 @@ package cn.tealc.teafx;
 
 import cn.tealc.teafx.controls.TitleBar;
 import cn.tealc.teafx.enums.TitleBarStyle;
+import cn.tealc.teafx.pane.BlurStackPane;
 import cn.tealc.teafx.stage.RoundStage;
 import com.jfoenixN.controls.JFXDialog;
 import javafx.application.Application;
 import javafx.scene.control.*;
+import javafx.scene.effect.GaussianBlur;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+
 
 public class HelloApplication extends Application {
     //测试程序
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
         stage.close();
         RoundStage roundStage=new RoundStage();
         TitleBar titleBar=new TitleBar(roundStage, TitleBarStyle.ALL);
-        Button b=new Button();
-        StackPane pane=new StackPane(b);
 
+        StackPane pane=new StackPane();
 
+        Button button = new Button("Hello World");
 
-        b.setOnAction(event -> {
-            JFXDialog jfxDialog=new JFXDialog(pane,new StackPane(new Button("222")), JFXDialog.DialogTransition.BOTTOM);
-            jfxDialog.show();
-
+        button.setOnAction(event -> {
+            JFXDialog dialog = new JFXDialog();
+            dialog.setDialogContainer(pane);
+            dialog.setContent(new Label("11111111111"));
+            dialog.show();
         });
+
+
+        pane.getChildren().add(button);
+
 
         titleBar.setContent(pane);
         roundStage.setWidth(600);
