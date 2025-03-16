@@ -8,6 +8,9 @@ import com.sun.jna.platform.win32.WinUser;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
+/**
+ * 通过window的Api实现标题栏的隐藏，局限性很大，不能彻底隐藏
+ */
 public class FXWinUtil {
 
     /**
