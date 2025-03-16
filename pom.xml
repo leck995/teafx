@@ -7,7 +7,7 @@
     <groupId>cn.tealc</groupId>
     <artifactId>teafx</artifactId>
     <version>1.2.0</version>
-    <name>TeaFX</name>
+    <name>teaFX</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
