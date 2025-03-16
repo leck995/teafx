@@ -1,0 +1,19 @@
+[![](https://jitpack.io/v/leck995/teafx.svg)](https://jitpack.io/#leck995/teafx)
+# 简介
+提供一些用于JavaFX程序开发的小功能，以及复制粘贴整合部分老开源库的功能设计。
+主要用于自用。
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.leck995</groupId>
+    <artifactId>teafx</artifactId>
+    <version>Tag</version>
+</dependency>
+```
